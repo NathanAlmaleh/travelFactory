@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace test3.Pages;
+namespace travelFactory.Pages;
 
 [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 public class ErrorModel : PageModel

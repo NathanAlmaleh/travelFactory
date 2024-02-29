@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid > input {
+    padding: 8px 4px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.conroller-container{
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.conroller-container input{
+    height:35px
+}
